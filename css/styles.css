@@ -1,0 +1,47 @@
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+h1 { 
+    background-color: rgb(250, 51, 2);
+    font-style: oblique;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+
+}
+p{
+    color: rgb(255, 255, 255);
+    font: size 20px;;
+}
+h4{ 
+    color: rgb(230, 18, 18);
+}
+h5{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    background-color:rgb(255, 255, 255);
+   
+}
+
+h2{
+    font-style: unset;    
+}
+h3{
+    background-color:rgba(255, 255, 255, 0.374);
+   
+
+    background-color:rgb(255, 255, 255);
+   
+}
+
+img{
+    display: block;
+    height: 20%;
+    width: 55%;
+    margin: auto;
+    border: px rgb(103, 143, 63);
+    border-radius: 15%;
+    
+}
