@@ -2,12 +2,12 @@ html, body {
     margin: 0;
     padding: 0; 
     height: 100%;  
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(112, 112, 112);
 }
 header {
     margin: 0;
     padding: 0;
-    background-color: #e61414;
+    background-color: #ed3434d8;
     height: 12%;
 }
 h1 { 
@@ -33,31 +33,20 @@ h5{
 
 
 h2{
-    font-style: unset;    
+    font-style: unset; 
+    text-align: center;   
 }
 h3{
    color: rgba(2, 2, 2, 0.979);
-}
-div {
-    position: relative; 
-    background-image: url('../img/gestao-de-pessoas-na-academia-como-fazer-a-melhor-1024x683.jpg');
-    height: 50vh; 
-    width: 60vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-attachment: fixed;
-    margin-bottom: 50px;
-
 }
 
 
 h6{
     font-size: 20px
 }
-#button-bottom {
+.button-bottom {
     height: 50px;
-    width: 150px;
+    width: 130px;
     background-color: #e61414;
     border-radius: 0px 15px 0px 15px;
     text-decoration: none;
@@ -77,6 +66,7 @@ h6{
     justify-content: center;
     padding: 30px;
 
+
 }
 li{
     color: #000000;
@@ -84,15 +74,53 @@ li{
 p{
     color: rgb(250, 243, 243);
 }
-div {
-    position: relative; 
-    background-image: url('../img/gestao-de-pessoas-na-academia-como-fazer-a-melhor-1024x683.jpg');
-    height: 50vh; 
-    width: 60vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-attachment: fixed;
-    margin-bottom: 50px;
 
+
+.images{
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    width: 950px;
+
+ }
+
+ .center{
+    text-align: center;
+ }
+
+.img4{
+    width: 10%;
+    border-radius: 5%;
+}
+
+.img_ini{
+    border-radius: 40px;
+    margin: 0px 0px 0px 15px;
+}
+
+nav{
+    width: 100%;
+    height: 12%;
+    top: 0;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    justify-content: center;
+    
+}
+
+.ulnav a{
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+    top: 20px;
+    
+}
+
+footer{
+    position: absolute;
+    
 }
